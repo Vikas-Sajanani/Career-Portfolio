@@ -1,0 +1,79 @@
+[
+  {
+    "fromDate": "FEB 2023",
+    "toDate": "PRESENT",
+    "roleTitle": "Full Stack Engineer",
+    "company": "Accenture (UK Government)",
+    "roleType": "Full Time",
+    "description": "Delivered payments north of £7.6 billion to 30 million UK citizens in need, during Covid, and the Cost of Living Crisis. Operated as a full-stack developer on a multi-disciplinary nine-person scrum team for a large-scale critical UK public sector project by developing back-end solutions and spearheading architecture planning. Lead production runs and deployments.",
+    "skills": ["JavaScript",
+    "Nunjucks",
+    "UI/UX",
+    "Node.js",
+    "Java",
+    "Sprint(Boot)"]
+  },
+  {
+    "fromDate": "JAN 2023",
+    "toDate": "FEB 2023",
+    "roleTitle": "Full Stack Engineer",
+    "company": "Accenture (Charity Clients)",
+    "roleType": "Full Time",
+    "description": "Created a MVP prototype for white label charity app to be pitched to potential clients as a one-stop shop customizable CRM platform for their charity organizations. Used AWS cognito to set up authentication and presented components for UI to leadership.",
+    "skills": [
+      "UI/UX research",
+      "AWS Cognito",
+      "React.js",
+      "Authentication"
+    ]
+  },
+  {
+    "fromDate": "SEP 2022",
+    "toDate": "DEC 2022",
+    "roleTitle": "Software Engineering Graduate",
+    "company": "Accenture (Internal)",
+    "roleType": "Bootcamp Graduate",
+    "description": "Successfully completed a 12 week Full Stack JavaScript, and Software Consulting Essentials Bootcamp. Covered a wide array of Full Stack concepts and technologies, including cloud engineering with Amazon Web Services. Culminated in a capstone 3-tier application project, presenting to Accenture Leadership.",
+    "skills": [
+      "JavaScript",
+      "HTML/CSS",
+      "Node.js",
+      "Express.js",
+      "UI/UX",
+      "Bootstrap",
+      "AWS"
+    ]
+  },
+  {
+    "fromDate": "JUL 2021",
+    "toDate": "JUL 2022",
+    "roleTitle": "Operations assistant",
+    "company": "University of Warwick (Student Services)",
+    "roleType": "Part-time",
+    "description": "First point of contact in question, crisis or complaint for anyone related to the University. Liaised with managers and administrative staff on issues ranging from accommodation and well-being to finance.",
+    "skills": [
+      "Crisis response",                                                                                                                                                                             
+      "Mental Aid",
+      "Administration",
+      "GDPR",
+      "Compliance and due diligence"
+    ]
+  },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+  {
+    "fromDate": "2018",
+    "toDate": "2022",
+    "roleTitle": "Electronics Engineering B.Eng",
+    "company": "University of Warwick",
+    "roleType": "Student",
+    "description": "Completed a Bachelor of Engineering in Electronics with a heavy focus on Computer architecture, Signal processing and Algorithmic thinking, at Warwick University. Achieved a 2:1 overall, with a 1st in my Dissertation, covering signal processing and design for Photoplethysmograph sensor with HR and SpO2 for Covid-19 patients.",
+    "skills": [
+      "Computer Architecture",
+      "Statistical Programming",
+      "Signal Processing",
+      "IC design",
+      "Algorithmic thinking",
+      "Information Systems",
+      "Systems design"
+    ]
+  }
+]

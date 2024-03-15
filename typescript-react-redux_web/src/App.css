@@ -1,0 +1,316 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.landing-page-container {
+  width: 65vw;
+  height: 100vh;
+  margin: auto;
+  padding-top: 6rem;
+  min-width: 720px;
+}
+
+#ABOUT {
+  padding-top: 10px;
+}
+
+#accenture {
+  margin-top: -19px;
+  width: 20px;
+  height: 25px;
+}
+
+.columns {
+  flex-direction: row;
+  column-gap: 1.5vw;
+  justify-content: center;
+}
+
+#jan-bock {
+  font-family: "Inter";
+  letter-spacing: -2px;
+  font-size: 45px;
+  margin-top: 0px;
+  z-index: 0;
+}
+
+#description {
+  font-family: "Inter";
+  font-weight: 600;
+  letter-spacing: -0.8px;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.slogan-style {
+  font-family: "Inter";
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+  margin-top: -5px;
+  line-height: 25px;
+}
+
+#opaque {
+  opacity: 0.6;
+}
+
+#bio-container {
+  position: fixed;
+  width: max-content;
+  height: 100vh;
+}
+
+.secondary-column {
+  padding-left: 50%;
+}
+
+.bio {
+  width: 40vw;
+  z-index: 1;
+}
+
+.experience-card {
+  min-width: 275px;
+  width: 40vw;
+  margin-bottom: 15px;
+  border: none;
+  box-shadow: none !important;
+}
+
+.experience-card:hover {
+  transition: 0.3s;
+  background-color: rgba(128, 128, 128, 0.033);
+  cursor: pointer;
+}
+
+.experience-card:hover .experience-card-role {
+  transition: 0.3s;
+  font-weight: 700;
+  color: #9000e3;
+}
+
+.experience-container:hover .experience-card {
+  transition: 0.3s;
+  opacity: 0.5;
+  filter: blur(0.5px);
+}
+
+.experience-container .experience-card:hover {
+  transition: 0.3s;
+  opacity: 1;
+  filter: blur(0px);
+}
+
+.lp-column.bio.slogan-style {
+  width: 38vw;
+}
+
+.contact-icons {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-icons:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.column-end-info {
+  font-family: "Inter";
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 55px;
+  margin: auto;
+  width: 42vw;
+}
+
+.brittany {
+  color: black;
+}
+
+.navigation-el {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.navigation-expanders {
+  background-color: black;
+  margin-top: 10px;
+  width: 20px;
+  height: 1px;
+  opacity: 0.7;
+}
+
+.navigation-el:hover .navigation-expanders {
+  transition: width 0.5s ease-out;
+  width: 75px;
+  height: 1.2px;
+}
+
+.navigation-li {
+  list-style: none;
+  padding-left: 20px;
+  font-family: "Inter";
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+#goodreads-icon {
+  width: 22px;
+  height: 22px;
+  margin-top: 4px;
+}
+
+#image-container {
+  width: 125px;
+  height: 75px;
+  border-radius: 4px;
+}
+
+.lp-column.secondary-column {
+  width: 38vw;
+}
+
+@media (max-width: 1350px) {
+  .experience-card {
+    width: 45vw;
+  }
+
+  .lp-column.bio.slogan-style {
+    width: 45vw;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .columns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #bio-container {
+    position: relative;
+    height: 40vw;
+    min-height: 390px;
+  }
+
+  .lp-column {
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .lp-column.bio.slogan-style {
+    width: 90vw;
+    margin: 0;
+  }
+
+  .secondary-column {
+    padding: 0%;
+  }
+
+  .landing-page-container {
+    width: 90vw;
+    padding-top: 4rem;
+  }
+
+  .experience-card {
+    width: 90vw;
+  }
+
+  .column-end-info {
+    font-family: "Inter";
+    width: 90vw;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 55px;
+    padding-left: 0;
+    margin: auto;
+  }
+
+  .lp-column.secondary-column {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .landing-page-container {
+    width: 65vw;
+    height: 100vh;
+    margin: auto;
+    padding-top: 6rem;
+    min-width: 250px;
+  }
+
+  #bio-container {
+    position: relative;
+    height: 40vw;
+    min-height: 390px;
+  }
+
+  .lp-column {
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .lp-column.bio.slogan-style {
+    width: 90vw;
+    font-size: 14.5px;
+    margin: 0;
+  }
+
+  .landing-page-container {
+    width: 90vw;
+    padding-top: 4rem;
+  }
+
+  .experience-card {
+    width: 90vw;
+  }
+
+  .column-end-info {
+    font-family: "Inter";
+    width: 90vw;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 55px;
+    padding-left: 10px;
+    margin: auto;
+  }
+
+  .lp-column.secondary-column {
+    padding: 0%;
+    margin: auto;
+    /* width: 100vw; */
+  }
+}
+
+@media (max-width: 300px) {
+  .lp-column.secondary-column {
+    padding: 0%;
+    margin: auto;
+    width: 90vw;
+  }
+
+  .lp-column.bio.slogan-style {
+    width: 90vw;
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  #image-container {
+    width: 100px;
+    height: auto;
+  }
+}

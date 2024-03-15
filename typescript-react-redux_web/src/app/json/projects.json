@@ -1,0 +1,20 @@
+[
+  {
+    "projectTitle": "Robot Arm",
+    "description": "Led programming design in a cross-discipline team to design and low-cost demo 3D printed robotic arm. Delivered load-bearing arm ( 500g capacity ) remotely controlled and cost £20, including microcontroller.",
+    "link": "https://warwick.ac.uk/study/undergraduate/courses/beng-engineering/",
+    "skills": [
+      "C++",
+      "Arduino",
+      "Electromechanics",
+      "Robotics",
+      "Project management"
+    ]
+  },
+  {
+    "projectTitle": "SongDiary",
+    "description": "Web-scraping project that connects to a Spotify Account and YT account to analyse user profile and music from both websites.",
+    "link": "https://github.com/Vikas-Sajanani/SongDiary",
+    "skills": ["APIs", "OAUTH2.0","Express","Node.js","Web Scraping","Bootstrap"]
+  }
+]
